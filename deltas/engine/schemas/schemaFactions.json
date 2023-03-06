@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "factions": {
+      "items": {
+        "properties": {
+          "name": {
+            "pattern": ".*"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+    "type": "MapScreen",
+    "skin": "engine:mapScreen",
+    "contents": {
+        "type": "relativeLayout",
+        "family": "mapUIButton",
+        "contents": [
+            {
+                "type": "UIWarnButton",
+                "text": "Ṁααṛḳḛḛṛ+",
+                "id": "addWaypointButton",
+                "layoutInfo": {
+                    "position-left": {},
+                    "position-top": {},
+                    "use-content-width": true,
+                    "use-content-height": true
+                }
+            },
+            {
+                "type": "UIWarnButton",
+                "text": "Ṁααṛḳḛḛṛ-",
+                "id": "removeWaypointButton",
+                "layoutInfo": {
+                    "position-left": {},
+                    "position-top": {
+                        "widget": "addWaypointButton",
+                        "target": "BOTTOM",
+                        "offset": 16
+                    },
+                    "use-content-width": true,
+                    "use-content-height": true
+                }
+            },
+            {
+                "type": "UIWarnButton",
+                "text": "Ḉḽṓṓṡḛḛ",
+                "id": "closeButton",
+                "layoutInfo": {
+                    "position-left": {},
+                    "position-vertical-center": {},
+                    "use-content-width": true,
+                    "use-content-height": true
+                }
+            },
+            {
+                "type": "UIWarnButton",
+                "text": "Żṓṓṓṓṃ ḬḬṇ",
+                "id": "zoomInButton",
+                "layoutInfo": {
+                    "position-left": {},
+                    "position-bottom": {
+                        "widget": "zoomOutButton",
+                        "target": "TOP",
+                        "offset": 16
+                    },
+                    "use-content-width": true,
+                    "use-content-height": true
+                }
+            },
+            {
+                "type": "UIWarnButton",
+                "text": "Żṓṓṓṓṃ ṎṎṵṵṭ",
+                "id": "zoomOutButton",
+                "layoutInfo": {
+                    "position-left": {},
+                    "position-bottom": {},
+                    "use-content-width": true,
+                    "use-content-height": true
+                }
+            }
+        ]
+    }
+}

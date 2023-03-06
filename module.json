@@ -1,0 +1,14 @@
+{
+    "id" : "pseudolocalisation",
+    "version" : "0.1.0",
+    "displayName" : "Pseudolocalisation",
+    "description" : "Pseudolocalises strings in the game files.",
+    "dependencies" :  [
+        {
+            "id": "engine"
+        },
+        {
+            "id" : "core"
+        }
+    ]
+}

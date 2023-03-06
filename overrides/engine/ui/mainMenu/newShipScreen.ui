@@ -1,0 +1,80 @@
+{
+    "type": "NewShipScreen",
+    "skin": "engine:mainMenu",
+    "contents": {
+        "type": "RelativeLayout",
+        "contents": [
+            {
+                "type": "UILabel",
+                "family": "menuHeaderText",
+                "text": "Ŵααṛṇḭḭṇḡ: Ṫḥḭḭṡ ẁḭḭḽḽ ḛḛṛααṡḛḛ ααṇẏ ṓṓḽḍ ṡḥḭḭṗ ẏṓṓṵṵ ṃḭḭḡḥṭ ḥααṽḛḛ ḥααḍ!",
+                "layoutInfo": {
+                    "position-horizontal-center": {},
+                    "position-top": {
+                        "widget": "shipPreviewImage",
+                        "target": "TOP",
+                        "offset": -64
+                    },
+                    "position-bottom": {
+                        "widget": "shipPreviewImage",
+                        "target": "TOP"
+                    }
+                }
+            },
+            {
+                "type": "UIImage",
+                "id": "shipPreviewImage",
+                "layoutInfo": {
+                    "position-horizontal-center": {},
+                    "position-top": {
+                        "target": "MIDDLE",
+                        "offset": -80
+                    },
+                    "use-content-width": true,
+                    "use-content-height": true
+                }
+            },
+            {
+                "type": "ColumnLayout",
+                "id": "menuButtons",
+                "family": "menuButtons",
+                "columns": 1,
+                "verticalSpacing": 10,
+                "contents": [
+                    {
+                        "type": "UIButton",
+                        "id": "systemsButton",
+                        "text": "Ṣẏṡṭḛḛṃṡ"
+                    },
+                    {
+                        "type": "UIButton",
+                        "id": "startingShipButton",
+                        "text": "Ṣṭααṛṭḭḭṇḡ Ṣḥḭḭṗ"
+                    },
+                    {
+                        "type": "KeyActivatedButton",
+                        "id": "okButton",
+                        "text": "ṎṎḰ"
+                    },
+                    {
+                        "type": "KeyActivatedButton",
+                        "id": "cancelButton",
+                        "text": "Ḉααṇͼḛḛḽ"
+                    }
+                ],
+                "layoutInfo": {
+                    "position-horizontal-center": {},
+                    "position-bottom": {
+                        "offset": 32
+                    },
+                    "position-top": {
+                        "target": "MIDDLE",
+                        "offset": 64
+                    },
+                    "use-content-height": true,
+                    "use-content-width": true
+                }
+            }
+        ]
+    }
+}

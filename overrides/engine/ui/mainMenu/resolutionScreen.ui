@@ -1,0 +1,58 @@
+{
+    "type": "ResolutionScreen",
+    "skin": "engine:mainMenu",
+    "contents": {
+        "type": "RelativeLayout",
+        "contents": [
+            {
+                "type": "UILabel",
+                "family": "menuHeaderText",
+                "text": "Ḉḽḭḭͼḳ 'Ḃααͼḳ' ṭṓṓ ααṗṗḽẏ ͼḥααṇḡḛḛṡ",
+                "layoutInfo": {
+                    "position-horizontal-center": {},
+                    "position-top": {
+                        "target": "MIDDLE",
+                        "offset": -64
+                    }
+                }
+            },
+            {
+                "type": "ColumnLayout",
+                "id": "menuButtons",
+                "family": "menuButtons",
+                "columns": 1,
+                "verticalSpacing": 10,
+                "contents": [
+                    {
+                        "type": "UIButton",
+                        "id": "resolutionButton",
+                        "text": "Ṛḛḛṡṓṓḽṵṵṭḭḭṓṓṇ"
+                    },
+                    {
+                        "type": "UIButton",
+                        "id": "fullScreenButton",
+                        "text": "Ḟṵṵḽḽ Ṣͼṛḛḛḛḛṇ"
+                    },
+                    {
+                        "type": "UIButton",
+                        "id": "nuiUIScaleButton",
+                        "text": "ṄṲṲḬḬ ṲṲḬḬ Ṣͼααḽḛḛ"
+                    },
+                    {
+                        "type": "KeyActivatedButton",
+                        "id": "cancelButton",
+                        "text": "Ḃααͼḳ"
+                    }
+                ],
+                "layoutInfo": {
+                    "position-horizontal-center": {},
+                    "position-bottom": {
+                        "offset": 32
+                    },
+                    "use-content-height": true,
+                    "use-content-width": true
+                }
+            }
+        ]
+    }
+}

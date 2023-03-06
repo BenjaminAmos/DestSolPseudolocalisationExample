@@ -1,0 +1,710 @@
+{
+    "type": "engine:MigTestScreen",
+    "skin": "engine:migTestSkin",
+    "contents": {
+        "type": "migLayout",
+        "layoutConstraints": "",
+        "colConstraints": "[min][pref][min][pref][grow]",
+        "rowConstraints": "[min]",
+        "debug": true,
+        "contents": [
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ḍḭḭṡααḅḽḛḛḍ",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṃḭḭṇ",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṗṛḛḛϝ",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ḡṛṓṓẁ",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬḺααḅḛḛḽ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "label1",
+                "text": "ḽααḅḛḛḽ1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "enabled": false
+            },
+            {
+                "type": "UILabel",
+                "id": "label2",
+                "text": "ḽααḅḛḛḽ2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "label3",
+                "text": "ḽααḅḛḛḽ3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "label4",
+                "text": "ḽααḅḛḛḽ4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬḂṵṵṭṭṓṓṇ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UIButton",
+                "id": "button1",
+                "text": "ḅṵṵṭṭṓṓṇ1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "enabled": false
+            },
+            {
+                "type": "UIButton",
+                "id": "button2",
+                "text": "ḅṵṵṭṭṓṓṇ2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UIButton",
+                "id": "button3",
+                "text": "ḅṵṵṭṭṓṓṇ3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UIButton",
+                "id": "button4",
+                "text": "ḅṵṵṭṭṓṓṇ4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬṢḽḭḭḍḛḛṛ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UISlider",
+                "id": "slider1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "enabled": false
+            },
+            {
+                "type": "UISlider",
+                "id": "slider2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UISlider",
+                "id": "slider3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UISlider",
+                "id": "slider4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬḌṓṓṵṵḅḽḛḛṢḽḭḭḍḛḛṛ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UIDoubleSlider",
+                "id": "doubleSlider1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "enabled": false
+            },
+            {
+                "type": "UIDoubleSlider",
+                "id": "doubleSlider2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UIDoubleSlider",
+                "id": "doubleSlider3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UIDoubleSlider",
+                "id": "doubleSlider4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬṪḛḛẋṭ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UIText",
+                "id": "text1",
+                "text": "ṭḛḛẋṭ1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "readOnly": true,
+                "enabled": false
+            },
+            {
+                "type": "UIText",
+                "id": "text2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UIText",
+                "id": "text3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UIText",
+                "id": "text4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬṪḛḛẋṭ ẁḭḭṭḥ ḥḭḭṇṭ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UIText",
+                "id": "text1",
+                "hintText": "Enter text here",
+                "text": "ṭḛḛẋṭ1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "readOnly": true,
+                "enabled": false
+            },
+            {
+                "type": "UIText",
+                "id": "text2",
+                "hintText": "Enter text here",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UIText",
+                "id": "text3",
+                "hintText": "Enter text here",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UIText",
+                "id": "text4",
+                "hintText": "Enter extra long hint text here that just keeps on going",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṚḛḛṡḛḛṭṭααḅḽḛḛṲṲḬḬṪḛḛẋṭ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "ResettableUIText",
+                "id": "rtext1",
+                "text": "ṭḛḛẋṭ1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "readOnly": true,
+                "enabled": false
+            },
+            {
+                "type": "ResettableUIText",
+                "id": "rtext2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "ResettableUIText",
+                "id": "rtext3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "ResettableUIText",
+                "id": "rtext4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬḌṛṓṓṗḍṓṓẁṇ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UIDropdown",
+                "id": "dropdown1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "enabled": false
+            },
+            {
+                "type": "UIDropdown",
+                "id": "dropdown2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UIDropdown",
+                "id": "dropdown3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UIDropdown",
+                "id": "dropdown4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬḌṛṓṓṗḍṓṓẁṇṢͼṛṓṓḽḽααḅḽḛḛ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UIDropdownScrollable",
+                "id": "dropdownScrollable1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "enabled": false
+            },
+            {
+                "type": "UIDropdownScrollable",
+                "id": "dropdownScrollable2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UIDropdownScrollable",
+                "id": "dropdownScrollable3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UIDropdownScrollable",
+                "id": "dropdownScrollable4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬḈḥḛḛͼḳḅṓṓẋ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UICheckbox",
+                "id": "checkbox1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "enabled": false
+            },
+            {
+                "type": "UICheckbox",
+                "id": "checkbox2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UICheckbox",
+                "id": "checkbox3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UICheckbox",
+                "id": "checkbox4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬḺḭḭṡṭ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UIList",
+                "id": "list1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "enabled": false
+            },
+            {
+                "type": "UIList",
+                "id": "list2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UIList",
+                "id": "list3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UIList",
+                "id": "list4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṲṲḬḬḂṓṓẋ",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "UIBox",
+                "id": "box1",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "content": {
+                    "type": "ColumnLayout",
+                    "family": "option-grid",
+                    "columns": 2,
+                    "column-widths": [
+                        0.35,
+                        0.65
+                    ],
+                    "verticalSpacing": 8,
+                    "horizontalSpacing": 8,
+                    "layoutInfo": {
+                        "width": 360,
+                        "height": 192,
+                        "position-horizontal-center": {},
+                        "position-top": {
+                            "target": "BOTTOM",
+                            "offset": 16,
+                            "widget": "subtitle"
+                        },
+                        "position-bottom": {
+                            "target": "TOP",
+                            "offset": 32,
+                            "widget": "close"
+                        }
+                    },
+                    "contents": [
+                        {
+                            "type": "UILabel",
+                            "text": "ḚḚẋααṃṗḽḛḛ"
+                        },
+                        {
+                            "type": "UISlider"
+                        }
+                    ]
+                },
+                "enabled": false
+            },
+            {
+                "type": "UIBox",
+                "id": "box2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                },
+                "content": {
+                    "type": "ColumnLayout",
+                    "family": "option-grid",
+                    "columns": 2,
+                    "column-widths": [
+                        0.35,
+                        0.65
+                    ],
+                    "verticalSpacing": 8,
+                    "horizontalSpacing": 8,
+                    "layoutInfo": {
+                        "width": 360,
+                        "height": 192,
+                        "position-horizontal-center": {},
+                        "position-top": {
+                            "target": "BOTTOM",
+                            "offset": 16,
+                            "widget": "subtitle"
+                        },
+                        "position-bottom": {
+                            "target": "TOP",
+                            "offset": 32,
+                            "widget": "close"
+                        }
+                    },
+                    "contents": [
+                        {
+                            "type": "UILabel",
+                            "text": "ḚḚẋααṃṗḽḛḛ"
+                        },
+                        {
+                            "type": "UISlider"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "UIBox",
+                "id": "box3",
+                "layoutInfo": {
+                    "cc": ""
+                },
+                "content": {
+                    "type": "ColumnLayout",
+                    "family": "option-grid",
+                    "columns": 2,
+                    "column-widths": [
+                        0.35,
+                        0.65
+                    ],
+                    "verticalSpacing": 8,
+                    "horizontalSpacing": 8,
+                    "layoutInfo": {
+                        "width": 360,
+                        "height": 192,
+                        "position-horizontal-center": {},
+                        "position-top": {
+                            "target": "BOTTOM",
+                            "offset": 16,
+                            "widget": "subtitle"
+                        },
+                        "position-bottom": {
+                            "target": "TOP",
+                            "offset": 32,
+                            "widget": "close"
+                        }
+                    },
+                    "contents": [
+                        {
+                            "type": "UILabel",
+                            "text": "ḚḚẋααṃṗḽḛḛ"
+                        },
+                        {
+                            "type": "UISlider"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "UIBox",
+                "id": "box4",
+                "layoutInfo": {
+                    "cc": "grow"
+                },
+                "content": {
+                    "type": "ColumnLayout",
+                    "family": "option-grid",
+                    "columns": 2,
+                    "column-widths": [
+                        0.35,
+                        0.65
+                    ],
+                    "verticalSpacing": 8,
+                    "horizontalSpacing": 8,
+                    "layoutInfo": {
+                        "width": 360,
+                        "height": 192,
+                        "position-horizontal-center": {},
+                        "position-top": {
+                            "target": "BOTTOM",
+                            "offset": 16,
+                            "widget": "subtitle"
+                        },
+                        "position-bottom": {
+                            "target": "TOP",
+                            "offset": 32,
+                            "widget": "close"
+                        }
+                    },
+                    "contents": [
+                        {
+                            "type": "UILabel",
+                            "text": "ḚḚẋααṃṗḽḛḛ"
+                        },
+                        {
+                            "type": "UISlider"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "UILabel",
+                "id": "",
+                "text": "ṢͼṛṓṓḽḽααḅḽḛḛḀḀṛḛḛαα",
+                "layoutInfo": {
+                    "cc": "newline"
+                }
+            },
+            {
+                "type": "ScrollableArea",
+                "id": "scrollbar1",
+                "layoutInfo": {
+                    "width": 70,
+                    "cc": "",
+                    "position-horizontal-center": {}
+                },
+                "enabled": false,
+                "content": {
+                    "type": "RelativeLayout",
+                    "contents": [
+                        {
+                            "type": "UILabel",
+                            "id": "message",
+                            "text": "Ḻṓṓṛḛḛṃ ḭḭṗṡṵṵṃ, Ḻṓṓṛḛḛṃ ḭḭṗṡṵṵṃḺṓṓṛḛḛṃ ḭḭṗṡṵṵṃḺṓṓṛḛḛṃ ḭḭṗṡṵṵṃḺṓṓṛḛḛṃ ḭḭṗṡṵṵṃḺṓṓṛḛḛṃ ḭḭṗṡṵṵṃḺṓṓṛḛḛṃ ḭḭṗṡṵṵṃḺṓṓṛḛḛṃ ḭḭṗṡṵṵṃḺṓṓṛḛḛṃ ḭḭṗṡṵṵṃḺṓṓṛḛḛṃ ḭḭṗṡṵṵṃḺṓṓṛḛḛṃ ḭḭṗṡṵṵṃḺṓṓṛḛḛṃ ḭḭṗṡṵṵṃ",
+                            "layoutInfo": {
+                                "position-left": {},
+                                "position-right": {},
+                                "use-content-height": true,
+                                "position-bottom": {}
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "UIScrollbar",
+                "id": "scrollbar2",
+                "layoutInfo": {
+                    "cc": "w min, h min"
+                }
+            },
+            {
+                "type": "UIScrollbar",
+                "id": "scrollbar3",
+                "layoutInfo": {
+                    "cc": ""
+                }
+            },
+            {
+                "type": "UIScrollbar",
+                "id": "scrollbar4",
+                "layoutInfo": {
+                    "cc": "grow"
+                }
+            }
+        ]
+    }
+}
